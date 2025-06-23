@@ -28,32 +28,32 @@ git clone https://github.com/Sam-Nyalik/simple-telegram-bot.git
 cd simple-telegram-bot
 ```
 
-Install the required Python librariesm using `pip`
+3. Install the required Python librariesm using `pip`
   
     matplotlib
     requests
     pyTelegramBotAPI
     openai
 
-Replace placeholders in the main.py file:
+4. Replace placeholders in the main.py file:
        
   - Replace `{Use your telegram bot api}` with your Telegram bot token.
     
   - Replace `{Use your OPENAI API Key}` with your OpenAI API key (optional).
 
-3. Running the Bot
+5. Running the Bot
 
   Navigate to the project directory:
 ```
   cd simple-telegram-bot
 ```
 
-4. Run the bot:
+6. Run the bot:
   ```
     python main.py
  ```
 
-Interact with the bot on Telegram.
+7. Interact with the bot on Telegram.
 
 ## How to Use the Bot
 Commands
