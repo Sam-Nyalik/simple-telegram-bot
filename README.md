@@ -10,7 +10,7 @@ Features
 ## Getting Started
 ### Prerequisites
 
-To run this project, you need the following installed on your machine:
+1. To run this project, you need the following installed on your machine:
 
     Python 3.7 or later
 
@@ -20,7 +20,7 @@ To run this project, you need the following installed on your machine:
 
     An OpenAI API key (optional if extending functionality)
 
-Installation
+2. Installation
 
 Clone the repository or download the code:
 ```
@@ -40,14 +40,14 @@ Replace placeholders in the main.py file:
   Replace `{Use your telegram bot api}` with your Telegram bot token.  
   Replace `{Use your OPENAI API Key}` with your OpenAI API key (optional).
 
-Running the Bot
+3. Running the Bot
 
   Navigate to the project directory:
 ```
   cd simple-telegram-bot
 ```
 
-Run the bot:
+4. Run the bot:
   ```
     python main.py
  ```
@@ -57,13 +57,13 @@ Interact with the bot on Telegram.
 ## How to Use the Bot
 Commands
 
-- Start the Bot:
+1. Start the Bot:
 
-  Use the `/start` command to initiate interaction with the bot.
+  - Use the `/start` command to initiate interaction with the bot.
 
-  The bot will display a welcome message.
+  - The bot will display a welcome message.
 
-  Check Current Prices:
+  - Check Current Prices:
 
   Use the `/price` command to fetch real-time prices for Bitcoin and Ethereum.
 
@@ -74,15 +74,15 @@ Commands
     Ethereum: $2500
   ```
 
-Generate Historical Charts:
+2. Generate Historical Charts:
 
-  Use the `/chart` command followed by the cryptocurrency name and number of days.
+  - Use the `/chart` command followed by the cryptocurrency name and number of days.
 
   Example:
 ```
         Enter: bitcoin 30
 ```
-  The bot will generate a chart showing the historical price trend of Bitcoin over the last 30 days and send it as an image.
+  - The bot will generate a chart showing the historical price trend of Bitcoin over the last 30 days and send it as an image.
 
 ## Code Overview
 
@@ -98,11 +98,11 @@ Generate Historical Charts:
 
 ## Error Handling
 
-  If the input format for the `/chart` command is incorrect, the bot prompts the user with the correct format.  
+  - If the input format for the `/chart` command is incorrect, the bot prompts the user with the correct format.  
 
-  If the cryptocurrency name is invalid or not supported, the bot informs the user.  
+  - If the cryptocurrency name is invalid or not supported, the bot informs the user.  
 
-  All exceptions are logged for debugging purposes.
+  - All exceptions are logged for debugging purposes.
 
 ## Future Enhancements
 
@@ -114,4 +114,4 @@ Generate Historical Charts:
 
 ## License
 
-This project is licensed under the MIT License. 
+- This project is licensed under the MIT License. 
