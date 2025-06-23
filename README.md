@@ -29,11 +29,12 @@ cd simple-telegram-bot
 ```
 
 3. Install the required Python librariesm using `pip`
-  
-    matplotlib
-    requests
-    pyTelegramBotAPI
+  ```
+    matplotlib  
+    requests  
+    pyTelegramBotAPI  
     openai
+```
 
 4. Replace placeholders in the main.py file:
        
