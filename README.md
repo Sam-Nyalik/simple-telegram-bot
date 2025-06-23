@@ -12,13 +12,13 @@ Features
 
 1. To run this project, you need the following installed on your machine:
 
-    Python 3.7 or later
+    - Python 3.7 or later
 
-    Required Python packages (see below)
+    - Required Python packages (see below)
 
-    A Telegram bot token (from the BotFather)
+    - A Telegram bot token (from the BotFather)
 
-    An OpenAI API key (optional if extending functionality)
+    - An OpenAI API key (optional if extending functionality)
 
 2. Installation
 
@@ -37,8 +37,9 @@ Install the required Python librariesm using `pip`
 
 Replace placeholders in the main.py file:
        
-  Replace `{Use your telegram bot api}` with your Telegram bot token.  
-  Replace `{Use your OPENAI API Key}` with your OpenAI API key (optional).
+  - Replace `{Use your telegram bot api}` with your Telegram bot token.
+    
+  - Replace `{Use your OPENAI API Key}` with your OpenAI API key (optional).
 
 3. Running the Bot
 
