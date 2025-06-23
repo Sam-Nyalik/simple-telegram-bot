@@ -88,15 +88,15 @@ Commands
 
 ## Code Overview
 
-  `main.py`: Contains the bot's logic, including fetching data from the CoinGecko API, generating charts, and handling user interactions.
+  - `main.py`: Contains the bot's logic, including fetching data from the CoinGecko API, generating charts, and handling user interactions.
 
   Functions:
 
-  `get_crypto_prices()`: Fetches current prices for Bitcoin and Ethereum.  
+  - `get_crypto_prices()`: Fetches current prices for Bitcoin and Ethereum.  
 
-  `get_historical_data(crypto_id, days)`: Retrieves historical price data.  
+  - `get_historical_data(crypto_id, days)`: Retrieves historical price data.  
 
-   `plot_historical_chart(prices, crypto_name)`: Generates and saves a price chart.  
+  - `plot_historical_chart(prices, crypto_name)`: Generates and saves a price chart.  
 
 ## Error Handling
 
