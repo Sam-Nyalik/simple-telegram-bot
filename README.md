@@ -1,4 +1,4 @@
-### Crypto Telegram Bot
+# Crypto Telegram Bot
 
 A simple Telegram bot that provides real-time cryptocurrency prices and historical price charts for Bitcoin and Ethereum. The bot integrates the CoinGecko API for fetching cryptocurrency data and uses Matplotlib to generate historical charts.
 
