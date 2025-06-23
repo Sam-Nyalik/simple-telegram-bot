@@ -10,7 +10,7 @@ A simple Telegram bot that provides real-time cryptocurrency prices and historic
 
 ## Screenshots
 
-- Check the screenshots in the images directory
+- View the chat screenshots in the images directory
 
 ## Getting Started
 ### Prerequisites
