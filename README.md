@@ -36,7 +36,7 @@ cd simple-telegram-bot
     openai
 ```
 
-4. Replace placeholders in the main.py file:
+4. Replace placeholders in the `main.py` file:
        
   - Replace `{Use your telegram bot api}` with your Telegram bot token.
     
